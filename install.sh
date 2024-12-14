@@ -1402,14 +1402,14 @@ initTLSNginxConfig() {
             echoContent yellow "\n ---> 域名: ${domain}"
         else
             echo
-            echoContent yellow "请输入要配置的域名 例: www.v2ray-agent.com --->"
+            echoContent yellow "请输入要配置的域名 例: www.baidu.com --->"
             read -r -p "域名:" domain
         fi
     elif [[ -n "${currentHost}" && -n "${lastInstallationConfig}" ]]; then
         domain=${currentHost}
     else
         echo
-        echoContent yellow "请输入要配置的域名 例: www.v2ray-agent.com --->"
+        echoContent yellow "请输入要配置的域名 例: www.baidu.com --->"
         read -r -p "域名:" domain
     fi
 
@@ -8592,7 +8592,7 @@ addSubscribeMenu() {
 addOtherSubscribe() {
     echoContent yellow "#注意事项:"
     echoContent yellow "请仔细阅读以下文章： https/1681804748677"
-    echoContent skyBlue "录入示例：www.v2ray-agent.com:443:vps1\n"
+    echoContent skyBlue "录入示例：www.baidu.com:443:vps1\n"
     read -r -p "请输入域名 端口 机器别名:" remoteSubscribeUrl
     if [[ -z "${remoteSubscribeUrl}" ]]; then
         echoContent red " ---> 不可为空"
