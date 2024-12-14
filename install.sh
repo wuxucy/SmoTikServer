@@ -9716,7 +9716,7 @@ menu() {
     echoContent red "\n=============================================================="
     echoContent red "                                              "
     #echoContent green "故障反馈：V+ wuxucy42"
-    echoContent green "当前版本：v1.0"
+    echoContent green "当前版本：v1.2"
     echoContent red "                                              "
     showInstallStatus
     #checkWgetShowProgres
