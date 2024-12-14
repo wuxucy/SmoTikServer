@@ -8129,7 +8129,7 @@ customSingBoxInstall() {
 # Xray-core个性化安装
 customXrayInstall() {
     echoContent skyBlue "\n========================安装============================"
-    echoContent yellow "TikTok使用选择 7 即可"
+    echoContent red "TikTok使用选择 7 即可"
     echoContent yellow "0.VLESS+TLS_Vision+TCP[推荐]"
     echoContent yellow "1.VLESS+TLS+WS[仅CDN推荐]"
     echoContent yellow "2.Trojan+TLS+gRPC[仅CDN推荐]"
