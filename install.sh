@@ -9719,8 +9719,8 @@ menu() {
     echoContent green "当前版本：v1.0"
     echoContent red "                                              "
     showInstallStatus
-    checkWgetShowProgress
-    #echoContent red "\n=========================== 推荐服务商============================"
+    checkWgetShowProgres
+    #echoContent red "\n========================= 推荐服务商=========================="
     #echoContent red "                                              "
     #echoContent green "IP订购：https://baidu.com"
     #echoContent red "                                              "
@@ -9730,7 +9730,7 @@ menu() {
     else
         echoContent yellow "1.安装"
     fi
-    echoContent skyBlue "-------------------------工具管理-----------------------------"
+    echoContent skyBlue "-----------------------工具管理---------------------------"
     echoContent yellow "2.用户管理"
     echoContent yellow "3.卸载脚本"
     echoContent red "=============================================================="
