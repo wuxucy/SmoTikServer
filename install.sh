@@ -9719,7 +9719,7 @@ menu() {
     echoContent green "当前版本：v1.0"
     echoContent red "                                              "
     showInstallStatus
-    checkWgetShowProgres
+    #checkWgetShowProgres
     #echoContent red "\n========================= 推荐服务商=========================="
     #echoContent red "                                              "
     #echoContent green "IP订购：https://baidu.com"
