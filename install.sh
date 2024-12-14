@@ -9714,14 +9714,17 @@ singBoxVersionManageMenu() {
 menu() {
     cd "$HOME" || exit
     echoContent red "\n=============================================================="
-    echoContent green "作者Vx+ wuxucy42"
+    echoContent red "                                              "
+    #echoContent green "故障反馈：V+ wuxucy42"
     echoContent green "当前版本：v1.0"
+    echoContent red "                                              "
     showInstallStatus
     checkWgetShowProgress
-    echoContent red "\n=========================== 推荐服务商============================"
-    echoContent red "                                              "
-    echoContent green "IP订购：https://baidu.com"
-    echoContent red "=============================================================="
+    #echoContent red "\n=========================== 推荐服务商============================"
+    #echoContent red "                                              "
+    #echoContent green "IP订购：https://baidu.com"
+    #echoContent red "                                              "
+    #echoContent red "=============================================================="
     if [[ -n "${coreInstallType}" ]]; then
         echoContent yellow "1.重新安装"
     else
