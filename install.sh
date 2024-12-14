@@ -5723,8 +5723,6 @@ updateNginxBlog() {
     echoContent yellow "2.游戏网站"
     echoContent yellow "3.个人博客01"
     echoContent yellow "4.企业站"
-    echoContent yellow "5.解锁加密的音乐文件模版[https://github.com/ix64/unlock-music]"
-    echoContent yellow "6.mikutap[https://github.com/HFIProgramming/mikutap]"
     echoContent yellow "7.企业站02"
     echoContent yellow "8.个人博客02"
     echoContent yellow "9.404自动跳转baidu"
@@ -8131,7 +8129,7 @@ customSingBoxInstall() {
 # Xray-core个性化安装
 customXrayInstall() {
     echoContent skyBlue "\n========================安装============================"
-    echoContent yellow "Tik使用选择 7 即可"
+    echoContent yellow "TikTok使用选择 7 即可"
     echoContent yellow "0.VLESS+TLS_Vision+TCP[推荐]"
     echoContent yellow "1.VLESS+TLS+WS[仅CDN推荐]"
     echoContent yellow "2.Trojan+TLS+gRPC[仅CDN推荐]"
@@ -8238,14 +8236,14 @@ selectCoreInstall() {
     read -r -p "请选择:" selectCoreType
     case ${selectCoreType} in
     1)
-        if [[ "${selectInstallType}" == "2" ]]; then
+        if [[ "${selectInstallType}" == "1" ]]; then
             customXrayInstall
         else
             xrayCoreInstall
         fi
         ;;
     2)
-        if [[ "${selectInstallType}" == "2" ]]; then
+        if [[ "${selectInstallType}" == "1" ]]; then
             customSingBoxInstall
         else
             singBoxInstall
@@ -9716,7 +9714,7 @@ menu() {
     echoContent red "\n=============================================================="
     echoContent red "                                              "
     #echoContent green "故障反馈：V+ wuxucy42"
-    echoContent green "当前版本：v1.2"
+    echoContent green "当前版本：v1.4"
     echoContent red "                                              "
     showInstallStatus
     #checkWgetShowProgres
